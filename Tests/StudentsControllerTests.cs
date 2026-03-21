@@ -65,8 +65,8 @@ public class StudentsControllerTests
 
         var created = Assert.IsType<CreatedAtActionResult>(result.Result);
         var student = Assert.IsType<StudentResponseDto>(created.Value);
-        Assert.Equal("Nuevo", student.FirstName);
-        Assert.Equal("Estudiante", student.LastName);
+        Assert.Equal("Michael", student.FirstName);
+        Assert.Equal("Asturias", student.LastName);
         Assert.True(student.Id > 0);
     }
 
