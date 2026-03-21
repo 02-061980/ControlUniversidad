@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using UniversityGrades.Data;
 
+
+
+///Ejemplo de Integración Continua
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
